@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/main', function () {
     return view('layauts.main');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
