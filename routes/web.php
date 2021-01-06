@@ -21,7 +21,7 @@ Route::get('/main', function () {
     return view('layauts.main');
 });
 
-Route::get('/login', function () {
+Route::get('/index', function () {
     return view('login');
 });
 
