@@ -6,21 +6,19 @@
           &copy; 2020 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
         </div>
       </div>
-      <div class="col-lg-6">
-        <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+      <div class="col-xl-6">
+        <ul class="nav nav-footer justify-content-center justify-content-xl-end">
           <li class="nav-item">
-            <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+            <a href="https://ceatec.com.pe/" class="nav-link" target="_blank">CeatecSoft</a>
           </li>
           <li class="nav-item">
-            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
+            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">Acerca de nosotros</a>
           </li>
           <li class="nav-item">
             <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
           </li>
-          <li class="nav-item">
-            <a href="https://www.creative-tim.com/license" class="nav-link" target="_blank">License</a>
-          </li>
         </ul>
       </div>
+    </div>
     </div>
   </footer>

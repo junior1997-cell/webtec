@@ -80,8 +80,15 @@
                     </form>
                     <p class="w3l-register-p">¿No tienes una cuenta?<a href="hola.php" class="register"> Registrarse</a></p>
                 </div>
+<<<<<<< HEAD
+                <button type="submit" href="{{ url('/dashboard')}}">Login</button>
+                
+            </form>
+            <p class="w3l-register-p">¿No tienes una cuenta?<a href="/dashboard" class="register"> Registrarse</a></p>
+=======
             </div>
             
+>>>>>>> ea254e58deb1ab05b24bc4ef8633aaebfaa13ff0
         </div>
 
         <footer>
