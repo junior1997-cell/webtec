@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="keywords"
-            content="Art Sign Up Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, 
+            content="Art Sign Up Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates,
         Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
         />
         <!-- /meta tags -->
@@ -33,10 +33,10 @@
 
                 </iframe> -->
                 <center>
-                    
-                
+
+
                     <iframe class="" width="100%"   height="400" src="https://www.youtube.com/embed/tSNiOIY5pKA?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        
+
                     </iframe>
                 </center>
             </div>
@@ -45,7 +45,7 @@
                     <center>
                         <img src="{{ asset('login/images/grupo2.png')}}" class="" alt="Avatar Image" width="200" height="200">
                     </center>
-                    
+
                     <h2 class="resplandor"><strong>Ingresar al Sistema</strong></h2>
                     <form action="#" method="POST">
                         <div class="w3l-form-group" title="Ingresa tu correo">
@@ -68,43 +68,38 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                                
+
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <button class="loco" href="hola.php" type="submit">Login</button>
                             </div>
                         </div>
-                        
 
-                        
+
+
                     </form>
                     <p class="w3l-register-p">¿No tienes una cuenta?<a href="hola.php" class="register"> Registrarse</a></p>
                 </div>
-<<<<<<< HEAD
-                <button type="submit" href="{{ url('/dashboard')}}">Login</button>
-                
-            </form>
-            <p class="w3l-register-p">¿No tienes una cuenta?<a href="/dashboard" class="register"> Registrarse</a></p>
-=======
+                <!-- <button type="submit" href="{{ url('/dashboard')}}">Login</button> -->
             </div>
-            
->>>>>>> ea254e58deb1ab05b24bc4ef8633aaebfaa13ff0
         </div>
 
         <footer>
+
             <p class="copyright-agileinfo">
                 &copy; 2021 CeatecSoft. Todos los derechos reservados | Diseñado por
                 <a href="https://ceatec.com.pe/">CeatecSoft.</a>
             </p>
         </footer>
+
         <!-- <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/popper.min.js"></script>
         <script type="text/javascript" src="js/popper.min.js.map"></script> -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script type="text/javascript" src="{{ asset('login/js/bootstrap.min.js')}}"></script>
-        <script> 
-            console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+        <script>
+            console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)
         </script>
     </body>
 </html>
