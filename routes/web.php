@@ -18,13 +18,27 @@ Route::get('/', function () {
 });
 
 Route::get('/main', function () {
-    return view('layauts.main');
+    return view('main');
 });
 
 Route::get('/index', function () {
     return view('login');
 });
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/main/precios', function () {
+    return view('precios');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard.dashboard');
 });
+
+Route::get('/dashboard/perfil', function () {
+    return view('users.perfil');
+});
+
+Route::redirect('/login', '/main');

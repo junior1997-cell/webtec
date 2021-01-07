@@ -1,27 +1,17 @@
-<!--
-=========================================================
-* Argon Dashboard PRO - v1.2.0
-=========================================================
-* Product Page: https://www.creative-tim.com/product/argon-dashboard-pro
-* Copyright  Creative Tim (http://www.creative-tim.com)
-* Coded by www.creative-tim.com
-=========================================================
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html>
 
 @include('layouts.head')
 
 <body>
-  <!-- Sidenav -->
+  
   @include('layouts.sidenav')
-  <!-- Main content -->
+  
   <div class="main-content" id="panel">
-    <!-- Topnav -->
+    
     @include('layouts.topnav')
-    <!-- Header -->
-    <!-- Header -->
+    
+    
     <div class="header bg-primary pb-6">
       <div class="container-fluid">
         <div class="header-body">
@@ -36,27 +26,21 @@
                 </ol>
               </nav>
             </div>
-            <div class="col-lg-6 col-5 text-right">
-              <a href="#" class="btn btn-sm btn-neutral">New</a>
-              <a href="#" class="btn btn-sm btn-neutral">Filters</a>
-            </div>
           </div>
-          <!-- Card stats -->
-          
         </div>
       </div>
     </div>
-    <!-- Page content -->
+    
     <div class="container-fluid mt--6">
       
       <div class="row">
         <div class="col">
           <div class="card">
-            <!-- Card header -->
+            
             <div class="card-header border-0">
               <h3 class="mb-0">Light table</h3>
             </div>
-            <!-- Light table -->
+            
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
@@ -368,7 +352,7 @@
                 </tbody>
               </table>
             </div>
-            <!-- Card footer -->
+            
             <div class="card-footer py-4">
               <nav aria-label="...">
                 <ul class="pagination justify-content-end mb-0">

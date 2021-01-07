@@ -51,7 +51,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <a href="#">¿Se te olvidó tu contraseña?</a>
                     <p><input type="checkbox" />Recordar contraseña</p>
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit" href="{{ url('/dashboard')}}">Login</button>
+                
             </form>
             <p class="w3l-register-p">¿No tienes una cuenta?<a href="/dashboard" class="register"> Registrarse</a></p>
         </div>

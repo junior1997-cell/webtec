@@ -1,7 +1,7 @@
 <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Search form -->
+        
         <form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main">
           <div class="form-group mb-0">
             <div class="input-group input-group-alternative input-group-merge">
@@ -15,10 +15,10 @@
             <span aria-hidden="true">×</span>
           </button>
         </form>
-        <!-- Navbar links -->
+        
         <ul class="navbar-nav align-items-center  ml-md-auto ">
           <li class="nav-item d-xl-none">
-            <!-- Sidenav toggler -->
+            
             <div class="pr-3 sidenav-toggler sidenav-toggler-dark" data-action="sidenav-pin" data-target="#sidenav-main">
               <div class="sidenav-toggler-inner">
                 <i class="sidenav-toggler-line"></i>
@@ -32,22 +32,22 @@
               <i class="ni ni-zoom-split-in"></i>
             </a>
           </li>
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="ni ni-bell-55"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-xl  dropdown-menu-right  py-0 overflow-hidden">
-              <!-- Dropdown header -->
+              
               <div class="px-3 py-3">
                 <h6 class="text-sm text-muted m-0">You have <strong class="text-primary">13</strong> notifications.</h6>
               </div>
-              <!-- List group -->
+              
               <div class="list-group list-group-flush">
                 <a href="#!" class="list-group-item list-group-item-action">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <!-- Avatar -->
-                      <img alt="Image placeholder" src="../../assets/img/theme/team-1.jpg" class="avatar rounded-circle">
+                      
+                      <img alt="Image placeholder" src="/argon/assets/img/theme/team-1.jpg" class="avatar rounded-circle">
                     </div>
                     <div class="col ml--2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -65,8 +65,8 @@
                 <a href="#!" class="list-group-item list-group-item-action">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <!-- Avatar -->
-                      <img alt="Image placeholder" src="../../assets/img/theme/team-2.jpg" class="avatar rounded-circle">
+                      
+                      <img alt="Image placeholder" src="/argon/assets/img/theme/team-2.jpg" class="avatar rounded-circle">
                     </div>
                     <div class="col ml--2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -84,8 +84,8 @@
                 <a href="#!" class="list-group-item list-group-item-action">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <!-- Avatar -->
-                      <img alt="Image placeholder" src="../../assets/img/theme/team-3.jpg" class="avatar rounded-circle">
+                      
+                      <img alt="Image placeholder" src="/argon/assets/img/theme/team-3.jpg" class="avatar rounded-circle">
                     </div>
                     <div class="col ml--2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -103,8 +103,8 @@
                 <a href="#!" class="list-group-item list-group-item-action">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <!-- Avatar -->
-                      <img alt="Image placeholder" src="../../assets/img/theme/team-4.jpg" class="avatar rounded-circle">
+                      
+                      <img alt="Image placeholder" src="/argon/assets/img/theme/team-4.jpg" class="avatar rounded-circle">
                     </div>
                     <div class="col ml--2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -122,8 +122,8 @@
                 <a href="#!" class="list-group-item list-group-item-action">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <!-- Avatar -->
-                      <img alt="Image placeholder" src="../../assets/img/theme/team-5.jpg" class="avatar rounded-circle">
+                      
+                      <img alt="Image placeholder" src="/argon/assets/img/theme/team-5.jpg" class="avatar rounded-circle">
                     </div>
                     <div class="col ml--2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -139,11 +139,11 @@
                   </div>
                 </a>
               </div>
-              <!-- View all -->
+              
               <a href="#!" class="dropdown-item text-center text-primary font-weight-bold py-3">View all</a>
             </div>
-          </li>
-          <li class="nav-item dropdown">
+          </li>-->
+          <!--<li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="ni ni-ungroup"></i>
             </a>
@@ -187,7 +187,7 @@
                 </a>
               </div>
             </div>
-          </li>
+          </li>-->
         </ul>
         <ul class="navbar-nav align-items-center  ml-auto ml-md-0 ">
           <li class="nav-item dropdown">
@@ -205,7 +205,7 @@
               <div class="dropdown-header noti-title">
                 <h6 class="text-overflow m-0">Welcome!</h6>
               </div>
-              <a href="#!" class="dropdown-item">
+              <a href="{{ url('/dashboard/perfil')}}" class="dropdown-item">
                 <i class="ni ni-single-02"></i>
                 <span>My profile</span>
               </a>
@@ -214,15 +214,11 @@
                 <span>Settings</span>
               </a>
               <a href="#!" class="dropdown-item">
-                <i class="ni ni-calendar-grid-58"></i>
-                <span>Activity</span>
-              </a>
-              <a href="#!" class="dropdown-item">
                 <i class="ni ni-support-16"></i>
                 <span>Support</span>
               </a>
               <div class="dropdown-divider"></div>
-              <a href="#!" class="dropdown-item">
+              <a href="{{ url('/index')}}" class="dropdown-item">
                 <i class="ni ni-user-run"></i>
                 <span>Logout</span>
               </a>
