@@ -16,6 +16,7 @@
         </div>
       </div>
     </div>
+
     <div class="navbar-inner">
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="sidenav-collapse-main">

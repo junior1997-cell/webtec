@@ -18,7 +18,7 @@
                 <h2 class="display-4 text-white font-weight-light">A beautiful premium dashboard for Bootstrap 4.</h2>
                 <p class="text-white mt-4">Argon perfectly combines reusable HTML and modular CSS with a modern styling and beautiful markup throughout each HTML template in the pack.</p>
                 <div class="mt-5">
-                  <a href="https://www.creative-tim.com/product/argon-dashboard-pro" class="btn btn-default my-2">Comprar ahora</a>
+                  <a href="{{ url('/main/precios')}}" class="btn btn-default my-2">Comprar ahora</a>
                 </div>
               </div>
             </div>
