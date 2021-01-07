@@ -26,7 +26,8 @@
     <body>
         <h1  >Bienvenido a nuestra plataforma Web</h2>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 padinvideo">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 ">
                 <!-- <iframe width="420" height="315"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 
@@ -34,7 +35,7 @@
                 <center>
                     
                 
-                    <iframe class="vid"   height="340" src="https://www.youtube.com/embed/tSNiOIY5pKA?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <iframe class="" width="100%"   height="400" src="https://www.youtube.com/embed/tSNiOIY5pKA?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         
                     </iframe>
                 </center>
@@ -95,5 +96,8 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script type="text/javascript" src="{{ asset('login/js/bootstrap.min.js')}}"></script>
+        <script> 
+            console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+        </script>
     </body>
 </html>
