@@ -44,6 +44,171 @@
               </ul>
             </div>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#navbar-herramientas" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-herramientas">
+              <i class="ni ni-ungroup text-orange"></i>
+              <span class="nav-link-text">Herramientas</span>
+            </a>
+            <div class="collapse" id="navbar-herramientas">
+              <ul class="nav nav-sm flex-column">
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> P </span>
+                    <span class="sidenav-normal"> Parametros </span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#navbar-seguridad" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-seguridad">
+                    <span class="sidenav-mini-icon"> S </span>
+                    <span class="sidenav-normal"> Seguridad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-seguridad" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Empresas y usuarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Usuarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Niveles de acceso</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-copia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-copia">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Copia de seguridad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-copia" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Back up total</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#navbar-mantenimiento" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-mantenimiento">
+              <i class="ni ni-ungroup text-orange"></i>
+              <span class="nav-link-text">Mantenimiento</span>
+            </a>
+            <div class="collapse" id="navbar-mantenimiento">
+              <ul class="nav nav-sm flex-column">
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> A </span>
+                    <span class="sidenav-normal"> Articulo </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Cliente proovedor </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> A </span>
+                    <span class="sidenav-normal"> ArticulosXproveedor </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-empresa" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-empresa">
+                    <span class="sidenav-mini-icon"> E </span>
+                    <span class="sidenav-normal"> Empresa </span>
+                  </a>
+                  <div class="collapse show" id="navbar-empresa" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Empresa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Sucursal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Almacen</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Zona</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Sector</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-grupo" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-grupo">
+                    <span class="sidenav-mini-icon"> G </span>
+                    <span class="sidenav-normal"> Grupo,Familia,Marca,Unidad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-grupo" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Grupo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Familia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Marca</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Unidad</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Tipo Origen</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#navbar-seguridad" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-seguridad">
+                    <span class="sidenav-mini-icon"> S </span>
+                    <span class="sidenav-normal"> Seguridad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-seguridad" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Empresas y usuarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Usuarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Niveles de acceso</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-copia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-copia">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Copia de seguridad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-copia" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Back up total</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                
+              </ul>
+            </div>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-examples">
               <i class="ni ni-ungroup text-orange"></i>

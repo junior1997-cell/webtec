@@ -143,7 +143,7 @@
               <a href="#!" class="dropdown-item text-center text-primary font-weight-bold py-3">View all</a>
             </div>
           </li>-->
-          <!--<li class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="ni ni-ungroup"></i>
             </a>
@@ -187,7 +187,12 @@
                 </a>
               </div>
             </div>
-          </li>-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" type="button" aria-haspopup="true" aria-expanded="false">
+              <i class="ni ni-email-83"></i>
+            </a>
+          </li>
         </ul>
         <ul class="navbar-nav align-items-center  ml-auto ml-md-0 ">
           <li class="nav-item dropdown">
@@ -216,7 +221,7 @@
                 <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
                   <div class="d-flex justify-content-between">
                     <a href="/dashboard/perfil" class="btn btn-sm btn-info  mr-4 ">Perfil</a>
-                    <a href="/index" class="btn btn-sm btn-default float-right">Salir</a>
+                    <a href="/index" class="btn btn-sm btn-danger float-right">Salir</a>
                   </div>
                 </div>
                 <div class="card-body pt-0">
