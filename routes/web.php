@@ -54,14 +54,6 @@ Route::get('/dashboard/mantenimiento/articulo', function () {
 
 Route::redirect('/login', '/main');
 
-// ===================================== MANTENIMIENTO =====================================
-Route::group(['prefix' => 'dashbo', 'as' => 'dashbo'], function () {
-    Route::get('/', 'AdminController@index');
-    Route::get('/usuarios', 'UsuarioController@index');
-    Route::resource('usuarios', 'UsuarioController');
-
-});
-
 Route::get('/dashboard/mantenimiento/cproveedor', function () {
     return view('mantenimiento.cliente_proveedor');
 });
