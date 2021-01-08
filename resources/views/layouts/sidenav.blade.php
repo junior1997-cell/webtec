@@ -288,7 +288,7 @@
               </ul>
             </div>
           </li>
-          
+
           <li class="nav-item">
             <a class="nav-link" href="#navbar-movimientos" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-movimientos">
               <i class="ni ni-ungroup text-green"></i>
@@ -304,7 +304,7 @@
                   <div class="collapse show" id="navbar-actualizar" style="">
                     <ul class="nav nav-sm flex-column">
                       <li class="nav-item">
-                        <a href="#!" class="nav-link ">Empresa</a>
+                        <a href="{{ url('/dashboard/herramientas/ubicardoc')}}" class="nav-link ">Empresa</a>
                       </li>
                       <li class="nav-item">
                         <a href="#!" class="nav-link ">Sucursal</a>
@@ -619,7 +619,7 @@
                     <span class="sidenav-mini-icon"> R </span>
                     <span class="sidenav-normal"> Reimprimir ventas </span>
                   </a>
-                </li> 
+                </li>
                 <li class="nav-item">
                   <a href="../../pages/components/buttons.html" class="nav-link">
                     <span class="sidenav-mini-icon"> C </span>
