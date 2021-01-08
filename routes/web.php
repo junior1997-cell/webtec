@@ -51,6 +51,7 @@ Route::get('/dashboard/herramientas/ubicardoc', function () {
 Route::get('/dashboard/mantenimiento/articulo', function () {
     return view('mantenimiento.articulo');
 });
+<<<<<<< HEAD
 Route::redirect('/login', '/main');
 
 // ===================================== MANTENIMIENTO =====================================
@@ -60,3 +61,15 @@ Route::group(['prefix' => 'dashboard', 'as' => 'dashboard'], function () {
     Route::resource('usuarios', 'UsuarioController');
 
 });
+=======
+
+Route::get('/dashboard/mantenimiento/cproveedor', function () {
+    return view('mantenimiento.cliente_proveedor');
+});
+
+Route::get('/dashboard/mantenimiento/artixpro', function () {
+    return view('mantenimiento.artixpro');
+});
+
+Route::redirect('/login', '/main');
+>>>>>>> ee51655bd9a00d8fb4b5b3ca7fd737439053d603
