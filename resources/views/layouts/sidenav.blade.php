@@ -104,7 +104,7 @@
             <div class="collapse" id="navbar-mantenimiento">
               <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                  <a href="{{ url('/dashboard/herramientas/ubicardoc')}}" class="nav-link">
+                  <a href="{{ url('/dashboard/mantenimiento/articulo')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> A </span>
                     <span class="sidenav-normal"> Articulo </span>
                   </a>

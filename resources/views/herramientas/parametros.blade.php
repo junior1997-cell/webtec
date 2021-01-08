@@ -44,10 +44,96 @@
                 <div class="card-body mb-4">
                   <!-- Form groups used in grid -->
                   <div class="row">
-                      <div class="col-sm-8">awd</div>
-                      <div class="col">awd</div>
-                      <div class="col">wad</div>
+                    <div class="col-8">
+                      <div class="custom-control custom-checkbox ">
+                        <input class="custom-control-input" id="customCheck1" type="checkbox">
+                        <label class="custom-control-label" for="customCheck1">Inc.Stock Cero</label>
+                      </div>
+                      <div class="form-group row">
+                        <label for="example-text-input" class="col-md-1 col-form-label form-control-label">F1</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="text" id="example-text-input">
+                        </div>
+                      </div>
+                      <center>
+                        <div class="row ">
+                          <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" id="customCheck1a" type="checkbox">
+                            <label class="custom-control-label" for="customCheck1a">Precio 1 </label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" id="customCheck2" type="checkbox">
+                            <label class="custom-control-label" for="customCheck2">Precio 2 </label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" id="customCheck3" type="checkbox">
+                            <label class="custom-control-label" for="customCheck3">Precio 3 </label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" id="customCheck4" type="checkbox">
+                            <label class="custom-control-label" for="customCheck4">Precio 4 </label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" id="customCheck5" type="checkbox">
+                            <label class="custom-control-label" for="customCheck5">Precio 5 </label>
+                          </div>
+                        </div>
+                      </center>
+                    </div>
+                    <div class="col-4">
+                      <div class="custom-control custom-checkbox mb-3">
+                        <input class="custom-control-input" id="venta" type="checkbox">
+                        <label class="custom-control-label" for="venta">Venta diferida</label>
+                      </div>
+                      <div class="custom-control custom-checkbox mb-3">
+                        <input class="custom-control-input" id="bonificacion" type="checkbox">
+                        <label class="custom-control-label" for="bonificacion">Bonificaion</label>
+                      </div>
+                      <div class="form-group col-8">
+                        <label class="form-control-label" for="almacen">Almacen</label>
+                        <select class="form-control form-control-sm" id="almacen">
+                          <option>PRiNCIPAL</option>
+                          <option>SECUNDARIO</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
+
+                  <hr><!-- --------------- -->
+
+                  <div class="">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="form-control-label" for="example3cols1Input">Cantidad</label>
+                          <input type="text" class="form-control" id="example3cols1Input">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="form-control-label" for="example3cols2Input">Precio</label>
+                          <input type="number" class="form-control" id="example3cols2Input" placeholder="S/.0.00">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="form-control-label" for="example3cols3Input">Subtotal</label>
+                          <input type="number" class="form-control" id="example3cols3Input" placeholder="S/.0.00">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <button type="button" class="btn btn-success">Agregar proucto</button>
+                      <button type="button" class="btn btn-danger">Salir</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card mb-12">
+              <!-- Card Table -->
+              <div class="card-body mb-12">
+                <div class="">
                   <div class="row">
                     <div class="table-responsive">
                         <table class="table align-items-center table-flush">
@@ -241,15 +327,16 @@
                                   $2500 USD
                                 </td>
                               </tr>
-                              
                           </tbody>
                         </table>
                       </div>    
                     </div>
+                  </div>
                 </div>
               </div>
-        </div>
-      </div>
+            </div>
+        <!--</div>
+      </div>-->
       
       @include('layouts.footer')
     </div>
