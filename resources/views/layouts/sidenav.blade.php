@@ -53,7 +53,7 @@
             <div class="collapse" id="navbar-herramientas">
               <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                  <a href="{{ url('/dashboard/herramientas/parametros')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> P </span>
                     <span class="sidenav-normal"> Parametros </span>
                   </a>

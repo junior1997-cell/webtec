@@ -40,5 +40,8 @@ Route::get('/dashboard', function () {
 Route::get('/dashboard/perfil', function () {
     return view('users.perfil');
 });
+Route::get('/dashboard/herramientas/parametros', function () {
+    return view('herramientas.parametros');
+});
 
 Route::redirect('/login', '/main');
