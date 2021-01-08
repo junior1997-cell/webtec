@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/main', function () {
     return view('main');
 });
+
+// Route::get('/main', function () {
+//     return view('main');
+// });
 
 Route::get('/index', function () {
     return view('login');
@@ -44,4 +44,7 @@ Route::get('/dashboard/herramientas/parametros', function () {
     return view('herramientas.parametros');
 });
 
+Route::get('/dashboard/herramientas/ubicardoc', function () {
+    return view('herramientas.ubicardoc');
+});
 Route::redirect('/login', '/main');

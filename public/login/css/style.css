@@ -145,13 +145,15 @@ button {
 
 }
 .loco:hover{
-    background-color: #00BCD4 !important;
+    background-color: #058800 !important;
     transition-duration: 5s !important;
+    /* color: #ffffff !important; */
+    box-shadow: 0 0 30px #f0ec11 !important;
 }
 
 button:hover {
-    background-color: #00BCD4 !important;
-    transition-duration: 5s !important;
+    background-color: #157502 !important;
+    transition-duration: 3s !important;
 }
 
 .forgot {

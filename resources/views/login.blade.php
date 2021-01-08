@@ -26,15 +26,15 @@
     <body>
         <h1  >Bienvenido a nuestra plataforma Web</h2>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 ">
                 <!-- <iframe width="420" height="315"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 
                 </iframe> -->
                 <center>
-
-
                     <iframe class="" width="100%"   height="400" src="https://www.youtube.com/embed/tSNiOIY5pKA?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
                     </iframe>

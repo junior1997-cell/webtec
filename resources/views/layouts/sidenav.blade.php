@@ -60,7 +60,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a href="#navbar-seguridad" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-seguridad">
+                  <a href="" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-seguridad">
                     <span class="sidenav-mini-icon"> S </span>
                     <span class="sidenav-normal"> Seguridad </span>
                   </a>
@@ -104,7 +104,7 @@
             <div class="collapse" id="navbar-mantenimiento">
               <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                  <a href="{{ url('/dashboard/herramientas/ubicardoc')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> A </span>
                     <span class="sidenav-normal"> Articulo </span>
                   </a>
