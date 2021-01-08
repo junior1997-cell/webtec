@@ -47,4 +47,8 @@ Route::get('/dashboard/herramientas/parametros', function () {
 Route::get('/dashboard/herramientas/ubicardoc', function () {
     return view('herramientas.ubicardoc');
 });
+
+Route::get('/dashboard/mantenimiento/articulo', function () {
+    return view('mantenimiento.articulo');
+});
 Route::redirect('/login', '/main');
