@@ -82,7 +82,7 @@
                             </div>
 
                             <!-- ========================== LABEL POR =========================== -->
-                            <div class="cent-ico-radio col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="cent-ico-radio col-xs-1 col-sm-1 col-md-1 col-lg-1" style="text-align: center !important;">
                               <div class="form-group">
                                 <label class="form-control-label">POR</label>
                               </div>
@@ -90,7 +90,7 @@
                             <div class="col-xs-5 col-sm-11 col-md-5 col-lg-5">
                               <!-- ======================= INPUT PARA SELECIONAR ========================= -->
                               <select class="form-control" data-toggle="select">
-                                <option>Buscar</option>
+                                <option>Buscar codigo</option>
                                 <option>AFP</option>
                                 <option>PRIMA</option>
                                 <option>ERP</option>

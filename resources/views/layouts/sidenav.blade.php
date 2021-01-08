@@ -304,10 +304,10 @@
                   <div class="collapse show" id="navbar-actualizar" style="">
                     <ul class="nav nav-sm flex-column">
                       <li class="nav-item">
-                        <a href="{{ url('/dashboard/herramientas/ubicardoc')}}" class="nav-link ">Empresa</a>
+                        <a href="{{ url('/dashboard/movimientos/ubicardoc')}}" class="nav-link ">Empresa</a>
                       </li>
                       <li class="nav-item">
-                        <a href="#!" class="nav-link ">Sucursal</a>
+                        <a href="{{ url('/dashboard/movimientos/ubicardoc')}}" class="nav-link ">Sucursal</a>
                       </li>
                       <li class="nav-item">
                         <a href="#!" class="nav-link ">Almacen</a>

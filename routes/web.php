@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/', function () {
     return view('main');
@@ -52,3 +52,11 @@ Route::get('/dashboard/mantenimiento/articulo', function () {
     return view('mantenimiento.articulo');
 });
 Route::redirect('/login', '/main');
+
+// ===================================== MANTENIMIENTO =====================================
+Route::group(['prefix' => 'dashboard', 'as' => 'dashboard'], function () {
+    Route::get('/', 'AdminController@index');
+    Route::get('/usuarios', 'UsuarioController@index');
+    Route::resource('usuarios', 'UsuarioController');
+
+});
