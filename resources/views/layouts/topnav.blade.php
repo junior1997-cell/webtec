@@ -3,36 +3,40 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <div class="navbar-nav align-items-center  mr-md-auto ">
-          <!-- ================================= ICONO AGREGAR FILE ================================= -->
+
+          <!-- ================================= ICONO MAGICO ================================= -->
           <li class="nav-item">
             <a class="nav-link" href="" type="button" aria-haspopup="true" aria-expanded="false">
-
-              <i class="fas fa-file-signature" style="font-size: 28px;"></i>
-
+              <i class="fas fa-magic" style="font-size: 28px;"></i>
             </a>
           </li>
+
           <!-- ================================= ICONO AGREGAR FILE ================================= -->
           <li class="nav-item">
             <a class="nav-link" href="" type="button" aria-haspopup="true" aria-expanded="false">
-
               <i class="fas fa-file-signature" style="font-size: 28px;"></i>
-
             </a>
           </li>
-          <!-- ================================= ICONO AGREGAR FILE ================================= -->
+
+          <!-- ================================= ICONO VER LIST ================================= -->
           <li class="nav-item">
             <a class="nav-link" href="" type="button" aria-haspopup="true" aria-expanded="false">
-
-              <i class="fas fa-file-signature" style="font-size: 28px;"></i>
-
+              <i class="fas fa-clipboard-list" style="font-size: 28px;"></i>
+              <!-- <img src="/argon/assets/svg/listt.svg"> -->
             </a>
           </li>
-          <!-- ================================= ICONO AGREGAR FILE ================================= -->
+
+          <!-- ================================= ICONO AGREGAR USUARIO ================================= -->
           <li class="nav-item">
             <a class="nav-link" href="" type="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user-plus" style="font-size: 28px;"></i>
+            </a>
+          </li>
 
-              <i class="fas fa-file-signature" style="font-size: 28px;"></i>
-
+          <!-- ================================= ICONO CALCULADORA  ================================= -->
+          <li class="nav-item">
+            <a class="nav-link" href="" type="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-calculator" style="font-size: 28px;"></i>
             </a>
           </li>
         </div>
