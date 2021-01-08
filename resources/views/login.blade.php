@@ -78,7 +78,7 @@
 
 
                     </form>
-                    <p class="w3l-register-p">¿No tienes una cuenta?<a href="hola.php" class="register"> Registrarse</a></p>
+                    <p class="w3l-register-p">¿No tienes una cuenta?<a href="/dashboard/herramientas/ubicardoc" class="register"> Registrarse</a></p>
                 </div>
                 <!-- <button type="submit" href="{{ url('/dashboard')}}">Login</button> -->
             </div>
