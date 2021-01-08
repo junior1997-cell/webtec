@@ -44,247 +44,62 @@
               </ul>
             </div>
           </li>-->
-
+          
           <li class="nav-item">
-            <a class="nav-link" href="#navbar-herramientas" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-herramientas">
-              <i class="ni ni-ungroup text-orange"></i>
-              <span class="nav-link-text">Herramientas</span>
+            <a class="nav-link" href="#navbar-components" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-components">
+              <i class="ni ni-ui-04 text-info"></i>
+              <span class="nav-link-text">Ventas</span>
             </a>
-            <div class="collapse" id="navbar-herramientas">
+            <div class="collapse" id="navbar-components">
               <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                  <a href="{{ url('/dashboard/herramientas/parametros')}}" class="nav-link">
-                    <span class="sidenav-mini-icon"> P </span>
-                    <span class="sidenav-normal"> Parametros </span>
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a href="" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-seguridad">
-                    <span class="sidenav-mini-icon"> S </span>
-                    <span class="sidenav-normal"> Seguridad </span>
-                  </a>
-                  <div class="collapse show" id="navbar-seguridad" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Empresas y usuarios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Usuarios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Niveles de acceso</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="#navbar-copia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-copia">
-                    <span class="sidenav-mini-icon"> C </span>
-                    <span class="sidenav-normal"> Copia de seguridad </span>
-                  </a>
-                  <div class="collapse show" id="navbar-copia" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Back up total</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#navbar-mantenimiento" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-mantenimiento">
-              <i class="ni ni-ungroup text-black"></i>
-              <span class="nav-link-text">Mantenimiento</span>
-            </a>
-            <div class="collapse" id="navbar-mantenimiento">
-              <ul class="nav nav-sm flex-column">
-                <li class="nav-item">
-                  <a href="{{ url('/dashboard/mantenimiento/articulo')}}" class="nav-link">
-                    <span class="sidenav-mini-icon"> A </span>
-                    <span class="sidenav-normal"> Articulo </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{{ url('/dashboard/mantenimiento/cproveedor')}}" class="nav-link">
-                    <span class="sidenav-mini-icon"> C </span>
-                    <span class="sidenav-normal"> Cliente proovedor </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{{ url('/dashboard/mantenimiento/artixpro')}}" class="nav-link">
-                    <span class="sidenav-mini-icon"> A </span>
-                    <span class="sidenav-normal"> ArticulosXproveedor </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#navbar-empresa" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-empresa">
-                    <span class="sidenav-mini-icon"> E </span>
-                    <span class="sidenav-normal"> Empresa </span>
-                  </a>
-                  <div class="collapse show" id="navbar-empresa" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Empresa</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Sucursal</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Almacen</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Zona</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Sector</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="#navbar-grupo" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-grupo">
-                    <span class="sidenav-mini-icon"> G </span>
-                    <span class="sidenav-normal"> Grupo,Familia,Marca,Unidad </span>
-                  </a>
-                  <div class="collapse show" id="navbar-grupo" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Grupo</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Familia</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Marca</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Unidad</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Tipo Origen</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> T </span>
-                    <span class="sidenav-normal"> Tipos de clientes </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#navbar-ventas" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-ventas">
+                  <a href="../../pages/components/buttons.html" class="nav-link">
                     <span class="sidenav-mini-icon"> V </span>
-                    <span class="sidenav-normal"> Ventas </span>
-                  </a>
-                  <div class="collapse show" id="navbar-ventas" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Bancos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Tarjetas</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="#navbar-ubigeo" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-ubigeo">
-                    <span class="sidenav-mini-icon"> U </span>
-                    <span class="sidenav-normal"> Ubigeo </span>
-                  </a>
-                  <div class="collapse show" id="navbar-ubigeo" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Departamento</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Distrito</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Provincia</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> T </span>
-                    <span class="sidenav-normal"> Tipos de Prioridades </span>
+                    <span class="sidenav-normal"> Venta producto </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#navbar-documento" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-documento">
-                    <span class="sidenav-mini-icon"> T </span>
-                    <span class="sidenav-normal"> Tipo Documento </span>
-                  </a>
-                  <div class="collapse show" id="navbar-documento" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Compra</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Venta</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> T </span>
-                    <span class="sidenav-normal"> Tipo nivel de acceso </span>
+                  <a href="../../pages/components/buttons.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> M </span>
+                    <span class="sidenav-normal"> Modificar/Eliminar venta </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> C </span>
-                    <span class="sidenav-normal"> Comisiones </span>
+                  <a href="../../pages/components/buttons.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> N </span>
+                    <span class="sidenav-normal"> Nota de credito </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> C </span>
-                    <span class="sidenav-normal"> Caja </span>
+                  <a href="../../pages/components/buttons.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> N </span>
+                    <span class="sidenav-normal"> Nota de debito </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#navbar-guia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-guia">
+                  <a href="../../pages/components/buttons.html" class="nav-link">
                     <span class="sidenav-mini-icon"> G </span>
-                    <span class="sidenav-normal"> Guia de Remision </span>
-                  </a>
-                  <div class="collapse show" id="navbar-guia" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Motivo traslado</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> G </span>
-                    <span class="sidenav-normal"> Gastos </span>
+                    <span class="sidenav-normal"> Generar cronograma de pago </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#navbar-guia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-guia">
-                    <span class="sidenav-mini-icon"> O </span>
-                    <span class="sidenav-normal"> Otros </span>
+                  <a href="../../pages/components/buttons.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> R </span>
+                    <span class="sidenav-normal"> Reimprimir ventas </span>
                   </a>
-                  <div class="collapse show" id="navbar-guia" style="">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="#!" class="nav-link ">Restaurar articulos eliminados</a>
-                      </li>
-                    </ul>
-                  </div>
                 </li>
-
+                <li class="nav-item">
+                  <a href="../../pages/components/buttons.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Cobranzas </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/components/buttons.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> R </span>
+                    <span class="sidenav-normal"> Reimprimir cobranzas </span>
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
@@ -578,63 +393,249 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#navbar-components" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-components">
-              <i class="ni ni-ui-04 text-info"></i>
-              <span class="nav-link-text">Ventas</span>
+            <a class="nav-link" href="#navbar-mantenimiento" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-mantenimiento">
+              <i class="ni ni-ungroup text-black"></i>
+              <span class="nav-link-text">Mantenimiento</span>
             </a>
-            <div class="collapse" id="navbar-components">
+            <div class="collapse" id="navbar-mantenimiento">
               <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> V </span>
-                    <span class="sidenav-normal"> Venta producto </span>
+                  <a href="{{ url('/dashboard/mantenimiento/articulo')}}" class="nav-link">
+                    <span class="sidenav-mini-icon"> A </span>
+                    <span class="sidenav-normal"> Articulo </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> M </span>
-                    <span class="sidenav-normal"> Modificar/Eliminar venta </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> N </span>
-                    <span class="sidenav-normal"> Nota de credito </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> N </span>
-                    <span class="sidenav-normal"> Nota de debito </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> G </span>
-                    <span class="sidenav-normal"> Generar cronograma de pago </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> R </span>
-                    <span class="sidenav-normal"> Reimprimir ventas </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
+                  <a href="{{ url('/dashboard/mantenimiento/cproveedor')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> C </span>
-                    <span class="sidenav-normal"> Cobranzas </span>
+                    <span class="sidenav-normal"> Cliente proovedor </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
-                    <span class="sidenav-mini-icon"> R </span>
-                    <span class="sidenav-normal"> Reimprimir cobranzas </span>
+                  <a href="{{ url('/dashboard/mantenimiento/artixpro')}}" class="nav-link">
+                    <span class="sidenav-mini-icon"> A </span>
+                    <span class="sidenav-normal"> ArticulosXproveedor </span>
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a href="#navbar-empresa" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-empresa">
+                    <span class="sidenav-mini-icon"> E </span>
+                    <span class="sidenav-normal"> Empresa </span>
+                  </a>
+                  <div class="collapse show" id="navbar-empresa" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Empresa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Sucursal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Almacen</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Zona</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Sector</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-grupo" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-grupo">
+                    <span class="sidenav-mini-icon"> G </span>
+                    <span class="sidenav-normal"> Grupo,Familia,Marca,Unidad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-grupo" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Grupo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Familia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Marca</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Unidad</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Tipo Origen</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> T </span>
+                    <span class="sidenav-normal"> Tipos de clientes </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-ventas" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-ventas">
+                    <span class="sidenav-mini-icon"> V </span>
+                    <span class="sidenav-normal"> Ventas </span>
+                  </a>
+                  <div class="collapse show" id="navbar-ventas" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Bancos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Tarjetas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-ubigeo" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-ubigeo">
+                    <span class="sidenav-mini-icon"> U </span>
+                    <span class="sidenav-normal"> Ubigeo </span>
+                  </a>
+                  <div class="collapse show" id="navbar-ubigeo" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Departamento</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Distrito</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Provincia</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> T </span>
+                    <span class="sidenav-normal"> Tipos de Prioridades </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-documento" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-documento">
+                    <span class="sidenav-mini-icon"> T </span>
+                    <span class="sidenav-normal"> Tipo Documento </span>
+                  </a>
+                  <div class="collapse show" id="navbar-documento" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Compra</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Venta</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> T </span>
+                    <span class="sidenav-normal"> Tipo nivel de acceso </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Comisiones </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Caja </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-guia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-guia">
+                    <span class="sidenav-mini-icon"> G </span>
+                    <span class="sidenav-normal"> Guia de Remision </span>
+                  </a>
+                  <div class="collapse show" id="navbar-guia" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Motivo traslado</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                    <span class="sidenav-mini-icon"> G </span>
+                    <span class="sidenav-normal"> Gastos </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-guia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-guia">
+                    <span class="sidenav-mini-icon"> O </span>
+                    <span class="sidenav-normal"> Otros </span>
+                  </a>
+                  <div class="collapse show" id="navbar-guia" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Restaurar articulos eliminados</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
               </ul>
             </div>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#navbar-herramientas" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-herramientas">
+              <i class="ni ni-ungroup text-orange"></i>
+              <span class="nav-link-text">Herramientas</span>
+            </a>
+            <div class="collapse" id="navbar-herramientas">
+              <ul class="nav nav-sm flex-column">
+                <li class="nav-item">
+                  <a href="{{ url('/dashboard/herramientas/parametros')}}" class="nav-link">
+                    <span class="sidenav-mini-icon"> P </span>
+                    <span class="sidenav-normal"> Parametros </span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-seguridad">
+                    <span class="sidenav-mini-icon"> S </span>
+                    <span class="sidenav-normal"> Seguridad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-seguridad" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Empresas y usuarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Usuarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Niveles de acceso</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#navbar-copia" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-copia">
+                    <span class="sidenav-mini-icon"> C </span>
+                    <span class="sidenav-normal"> Copia de seguridad </span>
+                  </a>
+                  <div class="collapse show" id="navbar-copia" style="">
+                    <ul class="nav nav-sm flex-column">
+                      <li class="nav-item">
+                        <a href="#!" class="nav-link ">Back up total</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>
