@@ -110,13 +110,13 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                  <a href="{{ url('/dashboard/mantenimiento/cproveedor')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> C </span>
                     <span class="sidenav-normal"> Cliente proovedor </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                  <a href="{{ url('/dashboard/mantenimiento/artixpro')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> A </span>
                     <span class="sidenav-normal"> ArticulosXproveedor </span>
                   </a>

@@ -37,7 +37,7 @@
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-4">
-                                        <h3 class="mb-0">Formulario notas de credito</h3>
+                                        <h3 class="mb-0">Formulario notas de debito</h3>
                                     </div>
                                     <div class="col-4 text-right">
                                         <h3>Buscar en:</h3>
@@ -237,6 +237,7 @@
                                           </div>
                                     </div>
                                 </div>
+
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
@@ -330,6 +331,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

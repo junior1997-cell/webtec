@@ -51,4 +51,13 @@ Route::get('/dashboard/herramientas/ubicardoc', function () {
 Route::get('/dashboard/mantenimiento/articulo', function () {
     return view('mantenimiento.articulo');
 });
+
+Route::get('/dashboard/mantenimiento/cproveedor', function () {
+    return view('mantenimiento.cliente_proveedor');
+});
+
+Route::get('/dashboard/mantenimiento/artixpro', function () {
+    return view('mantenimiento.artixpro');
+});
+
 Route::redirect('/login', '/main');
