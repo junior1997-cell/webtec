@@ -44,8 +44,8 @@ Route::get('/dashboard/herramientas/parametros', function () {
     return view('herramientas.parametros');
 });
 
-Route::get('/dashboard/herramientas/ubicardoc', function () {
-    return view('herramientas.ubicardoc');
+Route::get('/dashboard/movimientos/ubicardoc', function () {
+    return view('movimientos.ubicardoc');
 });
 
 Route::get('/dashboard/mantenimiento/articulo', function () {
@@ -56,6 +56,10 @@ Route::redirect('/login', '/main');
 
 Route::get('/dashboard/mantenimiento/cproveedor', function () {
     return view('mantenimiento.cliente_proveedor');
+});
+
+Route::get('/dashboard/mantenimiento/tcliente', function () {
+    return view('mantenimiento.tipo_cliente');
 });
 
 Route::get('/dashboard/mantenimiento/artixpro', function () {

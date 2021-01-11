@@ -51,7 +51,7 @@
                                     <!-- ================================= MODAL TITULO ================================= -->
                                     <div class="modal-header">
                                         <center style="text-align: -webkit-center !important;">
-                                        <h5 class="modal-title" id="exampleModalLabel">Agregar remisión</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Agregar cliente</h5>
                                         </center>
 
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -62,134 +62,117 @@
                                     <!-- ================================= MODAL CUERPO ================================= -->
                                     <div class="modal-body">
                                         <div class="card-body mb-12">
-
-                                            <div class="row">
-                                                <div class="col"></div>
-                                                <div class="col"><h3>Datos para la guia de remisión</h3></div>
-                                                <div class="col"></div>
-                                            </div>
-            
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <div class="form-group row">
-                                                        <label for="example-text-input" class="col-md-4 col-form-label form-control-label">Transportista</label>
-                                                        <div class="col-md-8">
-                                                          <input class="form-control" type="text" value="John Snow" id="example-text-input">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4"></div>
-                                                <div class="col-4">
-                                                    <div class="form-group row">
-                                                        <label for="example-text-input" class="col-md-4 col-form-label form-control-label">Nro de guia</label>
-                                                        <div class="col-md-8">
-                                                          <input class="form-control" type="text" value="201625245" id="example-text-input">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-            
-                                            <div class="row">
-                                                <div class="col-2">
-                                                    <div class="form-group">
-                                                        <label class="form-control-label" for="example3cols1Input">DNI Conductor</label>
-                                                        <input type="number" class="form-control" id="dniInput">
-                                                    </div>
-                                                </div>
-                                                <div class="col-5">
-                                                    <div class="form-group">
-                                                        <label class="form-control-label" for="example3cols1Input">Nombre Conductor</label>
-                                                        <input type="text" class="form-control" id="nombreInput">
-                                                    </div>
-                                                </div>
-                                                <div class="col-5">
-                                                    <div class="form-group">
-                                                        <label class="form-control-label" for="example3cols1Input">Licencia del conductor</label>
-                                                        <input type="number" class="form-control" id="licenciaInput">
-                                                    </div>
-                                                </div>
-                                            </div>
-            
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <div class="form-group">
-                                                        <label for="motivoFormControlSelect">Motivo de traslado</label>
-                                                        <select class="form-control" id="motivoFormControlSelect">
-                                                          <option>Motivo 1</option>
-                                                          <option>Motivo 2</option>
-                                                          <option>Motivo 3</option>
-                                                          <option>Motivo 4</option>
-                                                          <option>Motivo 5</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="form-group">
-                                                        <label for="fecha-input" class="form-control-label">Fecha traslado</label>
-                                                        <input class="form-control" type="date" value="2020-01-09" id="fecha-input">
-                                                    </div>
-                                                </div>
-                                            </div>
-            
                                             <!-- Border 1 -->
                                             <div class="border" style="margin-bottom: 10px; padding: 20px;">
                                                 <div class="row">
-                                                    <div class="col-6">
+                                                    <div class="col-4">
                                                         <div class="form-group">
-                                                            <label for="direccion-partida-input" class="form-control-label">Direccion de partida</label>
-                                                            <input class="form-control" type="text" value="Jr.integracion 248 - Morales" id="direccion-partida-input">
+                                                            <label for="cliente-input" class="form-control-label">Cliente</label>
+                                                            <input class="form-control" type="text" value="Publico general" id="cliente-input">
                                                         </div>
                                                     </div>
-                                                    <div class="col-3"></div>
+
+                                                    <div class="col-2">
+                                                        <div class="form-group">
+                                                            <label for="credito-input" class="form-control-label">Credito</label>
+                                                            <input class="form-control" type="text" value="S/0.00" id="credito-input">
+                                                        </div>
+                                                    </div>
+
                                                     <div class="col-3">
                                                         <div class="form-group">
-                                                            <label for="ibigeo-partida-input" class="form-control-label">Ubigeo</label>
-                                                            <input class="form-control" type="text" id="ibigeo-partida-input">
+                                                            <label for="ruc-dni-input" class="form-control-label">RUC/DNI</label>
+                                                            <input class="form-control" type="number" value="Publico general" id="ruc-dni-input">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label for="direccion-input" class="form-control-label">Direccion</label>
+                                                            <input class="form-control" type="text" value="Direccion" id="direccion-input">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="cliente-input" class="form-control-label">Persona/Direccion de entrega</label>
+                                                            <input class="form-control" type="text" value="Publico general" id="cliente-input">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label for="monedaFormControlSelect">Moneda</label>
+                                                            <select class="form-control" id="monedaFormControlSelect">
+                                                              <option>Soles</option>
+                                                              <option>Dolares</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <div class="form-gropu">
+                                                            <label for="monedaFormControlSelect">Cliente</label><br>
+                                                            <button type="button" class="btn btn-secondary">cliente</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-            
+
                                             <!-- Border 2 -->
                                             <div class="border" style="margin-bottom: 10px; padding: 20px;">
                                                 <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="direccion-llegada-input" class="form-control-label">Direccion de llegada</label>
-                                                            <input class="form-control" type="text" value="Jr.Alfonso Ugaste - Tarapoto" id="direccion-llegada-input">
+                                                   <div class="col-5">
+                                                        <div class="border" style="margin-bottom: 10px; padding: 20px;">
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <div class="form-group">
+                                                                        <label for="monedaFormControlSelect">Doc. de venta</label>
+                                                                        <select class="form-control" id="monedaFormControlSelect">
+                                                                          <option>Boleta de venta</option>
+                                                                          <option>Factura</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-3"></div>
-                                                    <div class="col-3">
-                                                        <div class="form-group">
-                                                            <label for="ubigeo-llegada-input" class="form-control-label">Ubigeo</label>
-                                                            <input class="form-control" type="text" id="ubigeo-llegada-input">
+                                                   </div>
+                                                   <div class="col-4">
+                                                        <div class="border" style="margin-bottom: 10px; padding: 20px;">
+                                                            <div class="row">
+                                                                <div class="col-8">
+                                                                    <div class="form-group">
+                                                                        <label for="pedido-date-input" class="form-control-label">Nro.pedido</label>
+                                                                        <input class="form-control" type="date" value="2018-11-23" id="pedido-date-input">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div class="form-gropu">   
+                                                                        <label for="">Sin F.emisión</label>
+                                                                        <label class="custom-toggle">
+                                                                            <input type="checkbox" checked>
+                                                                            <span class="custom-toggle-slider rounded-circle" data-label-off="No" data-label-on="Yes"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </div>
+                                                   </div>
+                                                   <div class="col-3">
+                                                       <div class="border" style="margin-bottom: 10px; padding: 20px;">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="monedaFormControlSelect">Medio pago</label>
+                                                                <select class="form-control" id="monedaFormControlSelect">
+                                                                  <option>Contado</option>
+                                                                  <option>Cuotas</option>
+                                                                </select>
+                                                            </div>
+                                                        </div> 
+                                                       </div>
+                                                   </div>
                                                 </div>
                                             </div>
-            
-                                            <!-- Border 3 -->
-                                            <div class="border" style="margin-bottom: 10px; padding: 20px;">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="placa-carro-input" class="form-control-label">Placa del vehiculo</label>
-                                                            <input class="form-control" type="text" value="Jr.Alfonso Ugaste - Tarapoto" id="placa-carro-input">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-3"></div>
-                                                    <div class="col-3">
-                                                        <div class="form-group">
-                                                            <label for="marca-carro-input" class="form-control-label">Marca de carro</label>
-                                                            <input class="form-control" type="text" id="marca-carro-input">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-            
+
                                         </div>    
                                         <!-- ================================= FIN-CUADRO-BRODER ================================= -->
                                     </div>
@@ -198,7 +181,7 @@
                                     <!-- MODAL FOOTER -->
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary">Guardar remision</button>
+                                        <button type="button" class="btn btn-primary">Guardar cliente</button>
                                     </div>
                                     <!-- FIN-MODAL-FOOTER -->
                                     </div>
@@ -322,6 +305,69 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                </div>
+
+                                <div class="border" style="margin-bottom: 10px; padding: 20px;">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="importe-input" class="form-control-label">Importe bruto</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="importe-input">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="trans-input" class="form-control-label">Trans.grat</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="trans-input">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="dscto-input" class="form-control-label">Dscto</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="dscto-input">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="subtotal-input" class="form-control-label">Sub total</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="subtotal-input">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="igv-input" class="form-control-label">IGV 18%</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="igv-input" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="icbpef-input" class="form-control-label">ICBPEF</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="icbpef-input" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="valortotal-input" class="form-control-label">Valor total</label>
+                                                <input class="form-control" type="number" value="S/0.00" id="valortotal-input">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="form-group">
+                                                <label for="pago-input" class="form-control-label">Pagado con</label>
+                                                <input class="form-control" type="text" value="S/0.00" id="pago-input">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group">
+                                                <label for="vuelto-input" class="form-control-label">Vuelto</label>
+                                                <input class="form-control" type="text" value="S/0.00" id="vuelto-input">
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                             

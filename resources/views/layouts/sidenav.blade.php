@@ -468,7 +468,7 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a href="../../pages/examples/pricing.html" class="nav-link">
+                  <a href="{{ url('/dashboard/mantenimiento/tcliente')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> T </span>
                     <span class="sidenav-normal"> Tipos de clientes </span>
                   </a>
