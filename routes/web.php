@@ -62,4 +62,8 @@ Route::get('/dashboard/mantenimiento/artixpro', function () {
     return view('mantenimiento.artixpro');
 });
 
+Route::get('/dashboard/ventas/ventaproducto', function () {
+    return view('ventas.venta');
+});
+
 Route::redirect('/login', '/main');

@@ -44,7 +44,7 @@
               </ul>
             </div>
           </li>-->
-          
+
           <li class="nav-item">
             <a class="nav-link" href="#navbar-components" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-components">
               <i class="ni ni-ui-04 text-info"></i>
@@ -53,7 +53,7 @@
             <div class="collapse" id="navbar-components">
               <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                  <a href="../../pages/components/buttons.html" class="nav-link">
+                  <a href="{{ url('/dashboard/ventas/ventaproducto')}}" class="nav-link">
                     <span class="sidenav-mini-icon"> V </span>
                     <span class="sidenav-normal"> Venta producto </span>
                   </a>

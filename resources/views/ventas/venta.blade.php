@@ -13,13 +13,13 @@
           <div class="header-body">
             <div class="row align-items-center py-4">
               <div class="col-lg-6 col-7">
-                <h6 class="h2 text-white d-inline-block mb-0">Mantenimiento</h6>
+                <h6 class="h2 text-white d-inline-block mb-0">Venta</h6>
                 <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                   <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
                     <li class="breadcrumb-item">
                       <a href="#"><i class="fas fa-home"></i></a>
                     </li>
-                    <li class="breadcrumb-item"><a href="#">Articulos</a></li>
+                    <li class="breadcrumb-item"><a href="#">Venta Articulos</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Formulario</li>
                   </ol>
                 </nav>
@@ -47,10 +47,200 @@
               </div>
               <!-- ================================= CARD BODY ================================= -->
               <div class="card-body">
+
                 <!-- ================================= BOTON DISPARADOR DE MODAL ================================= -->
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                  MODAL UBICAR DOCMUENTO
+                  Realizar Venta
                 </button>
+
+                <!-- ==================================== TABLA DOC ================================== -->
+                <div class="table-responsive py-4">
+                  <table class="table table-flush" id="datatable-basic">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Item</th>
+                        <th>Comprovante</th>
+                        <th>Cliente</th>
+                        <th>Fecha</th>
+                        <th>Aciones</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <th>Item</th>
+                        <th>Comprovante</th>
+                        <th>Cliente</th>
+                        <th>Fecha</th>
+                        <th>Aciones</th>
+                      </tr>
+                    </tfoot>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Zukember Moreno Dominguez</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Alan Garcia Ollanta</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Francisco Vaca Mejia</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Edinburgh Perez Pastor</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Tokyo Ordoñes Lap</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Ramiro Mlendrez Noreña</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Toldeo Acuña Paz</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>Tokyo Murayai Mejia</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>
+                          <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#compronate">
+                            <i class="fas fa-file-invoice-dollar" style="font-size: 28px;"></i>
+                          </a>
+                        </td>
+                        <td>San Francisco casahuaman</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <button type="button" class="btn btn-slack btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-pencil-alt"></i></span>
+                          </button>
+                          <button type="button" class="btn btn-youtube btn-icon-only">
+                            <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- FIN-TABLE- -->
+                </div>
 
                 <!-- ================================= MODAL ================================= -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -167,95 +357,7 @@
                         </div>
                         <!-- ================================= FIN-CUADRO-BRODER ================================= -->
 
-                        <!-- TABLA DOC -->
-                        <div class="table-responsive py-4">
-                          <table class="table table-flush" id="datatable-basic">
-                            <thead class="thead-light">
-                              <tr>
-                                <th>Item</th>
-                                <th>Cod. de Compra</th>
-                                <th>Proveedor</th>
-                                <th>Tipo</th>
-                                <th>Numero de Documento</th>
-                              </tr>
-                            </thead>
-                            <tfoot>
-                              <tr>
-                                <th>Item</th>
-                                <th>Cod. de Compra</th>
-                                <th>Proveedor</th>
-                                <th>Tipo</th>
-                                <th>Numero de Documento</th>
-                              </tr>
-                            </tfoot>
-                            <tbody>
-                              <tr>
-                                <td>1</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011/07/25</td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>66</td>
-                                <td>2009/01/12</td>
-                              </tr>
-                              <tr>
-                                <td>4</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>22</td>
-                                <td>2012/03/29</td>
-                              </tr>
-                              <tr>
-                                <td>5</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>33</td>
-                                <td>2008/11/28</td>
-                              </tr>
-                              <tr>
-                                <td>6</td>
-                                <td>Integration Specialist</td>
-                                <td>New York</td>
-                                <td>61</td>
-                                <td>2012/12/02</td>
-                              </tr>
-                              <tr>
-                                <td>7</td>
-                                <td>Sales Assistant</td>
-                                <td>San Francisco</td>
-                                <td>59</td>
-                                <td>2012/08/06</td>
-                              </tr>
-                              <tr>
-                                <td>8</td>
-                                <td>Integration Specialist</td>
-                                <td>Tokyo</td>
-                                <td>55</td>
-                                <td>2010/10/14</td>
-                              </tr>
-                              <tr>
-                                <td>9</td>
-                                <td>Javascript Developer</td>
-                                <td>San Francisco</td>
-                                <td>39</td>
-                                <td>2009/09/15</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                          <!-- FIN-TABLE- -->
-                        </div>
+
 
                         <!-- LABEL DETALLE -->
                         <label class="form-control-label" for="input-username">
@@ -390,6 +492,30 @@
               <!-- FIN-CARD-BODY -->
             </div>
             <!-- FIND-CARD -->
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL COMPROVANTE-->
+      <div class="modal fade" id="compronate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Imprimir</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <center>
+                <img src="/argon/assets/img/boleta.png">
+              </center>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
+            </div>
           </div>
         </div>
       </div>
